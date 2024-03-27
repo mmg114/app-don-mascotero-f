@@ -1,0 +1,135 @@
+.topnav{
+    width: 100%;
+    height: 80px;
+    background:#ffe600;
+    margin: 0px;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+a{
+    border: 0px;
+    margin: 0px;
+    border: 0px solid red;
+    box-sizing: border-box;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;    
+
+}
+
+.opciones{
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+
+}
+
+.buscador{
+    display: flex;  
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+
+}
+
+.menu{
+
+    display: flex;  
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+
+
+}
+
+.search-input {
+    padding: 5px 30px 8px 10px; /* Ajusta el padding para que el texto no se superponga con el icono */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 70%;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: dodgerblue;
+  }
+  
+  .search-input::placeholder {
+    color: #999; /* Cambia el color del texto de marcador de posición */
+  }
+  
+  .search-input:focus::placeholder {
+    color: transparent; /* Hace que el texto del marcador de posición sea transparente cuando el input está enfocado */
+  }
+  
+  .search-input-icon {
+    position: absolute; /* Posiciona el icono absolutamente */
+    right: 10px; /* Ajusta la posición del icono a la derecha */
+    color: #aaa; /* Color del icono */
+    cursor: pointer;
+  }
+  
+  .search-input-icon:hover {
+    color: #666; /* Cambia el color del icono cuando se pasa el cursor sobre él */
+  }
+
+  
+a{
+    border-radius: 10px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #ffffff; /* Cambia el color de fondo cuando se pasa el cursor sobre el enlace */
+  }
+  
+  .active {
+    background-color: dodgerblue; /* Cambia el color de fondo del enlace activo */
+  }
+  
+  .carrito {
+    display: flex;  
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .icono-carrito {
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .icono-carrito i {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contador {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
